@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="Photographe professionnelle offrant des services de portraits, mariages, et divers secteurs. Découvrez mon portfolio et réservez une séance dès aujourd'hui.">
@@ -10,47 +10,36 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap" rel="stylesheet"/>
 
     <meta charset="UTF-8" />
 
     <script src="./assets/bootstrap/bootstrap.bundle.min.js" defer></script>
-    <script
-      src="https://code.jquery.com/jquery-3.4.1.min.js"
-      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-      crossorigin="anonymous"
-      defer
-    ></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous" defer ></script>
     <script src="./assets/maugallery.js" defer></script>
     <script src="./assets/scripts.js" defer></script>
 
     <title>Nina Carducci</title>
+    
   </head>
   <body>
-    <div class="top-header">
-      <h3 class="name">Nina Carducci</h3>
-      <div class="nav">
+    <header >
+      <h1 class="name">Nina Carducci</h1>
+      <nav>
         <ul>
-          <li><a href="#about">À propos</a></li>
+          <li><a href="#about">À propos</a></li> 
           <li><a href="#gallery">Galerie</a></li>
           <li><a href="#services">Service</a></li>
           <li><a href="#contact">Contact</a></li>
           <li>
-            <a
-              class="social-link"
-              href="https://www.instagram.com/ninacarducci.photo/?hl=fr"
-              target="_blank"
-            >
+            <a class="social-link" href="https://www.instagram.com/ninacarducci.photo/?hl=fr" target="_blank">
               <img src="assets/images/instagram.png" alt="logo instagram" />
             </a>
           </li>
         </ul>
-      </div>
-    </div>
-    <div id="header">
+      </nav>
+    </header>
+    <main>
       <div
         id="carouselExampleIndicators"
         class="carousel slide"
@@ -150,7 +139,6 @@
           <span class="visually-hidden">Next</span>
         </button>
       </div>
-    </div>
     <div id="about">
       <div class="picture left">
         <img
@@ -169,12 +157,12 @@
         />
       </div>
       <div id="about-me">
-        <h3 class="about-me__title">A propos de moi</h3>
-        <h6 class="about-me__introduction">
+        <h2 class="about-me__title">A propos de moi</h2>
+        <h3 class="about-me__introduction">
           Devenir photographe était pour moi une évidence. Comme si j’y étais
           prédestiné. Saisir un moment, une émotion, une situation, un endroit,
           une lumière et les rendre immortels, voilà ce qui me fait vibrer.
-        </h6>
+        </h3>
         <p>
           Nous passons notre vie à chercher le bonheur, et lorsque nous y
           touchons, nous n’avons qu’une envie : le figer au travers de
@@ -340,12 +328,12 @@
       <div class="quote">
         <figure>
           <blockquote>
-            <h1 class="quote__text">
+            <p class="quote__text">
               Un portrait n’est pas une ressemblance. Dès lors qu’une émotion ou
               qu’un fait est traduit en photo, il cesse d’être un fait pour
               devenir une opinion. L’inexactitude n’existe pas en photographie.
               Toutes les photos sont exactes. Aucune d’elles n’est la vérité.
-            </h1>
+            </p>
           </blockquote>
           <figcaption class="quote__author">- Richard Avedon</figcaption>
         </figure>
@@ -364,7 +352,7 @@
             </p>
           </div>
           <div class="service__price">
-            <h4>350€/demi journée</h4>
+            <h3>350€/demi journée</h3>
             <span>Matériel, déplacement inclus</span>
           </div>
         </div>
@@ -377,7 +365,7 @@
             </p>
           </div>
           <div class="service__price">
-            <h4>50€/photo</h4>
+            <h3>50€/photo</h3>
             <span>2 AR par photo</span>
           </div>
         </div>
@@ -390,7 +378,7 @@
             </p>
           </div>
           <div class="service__price">
-            <h4>400€ album A4</h4>
+            <h3>400€ album A4</h3>
             <span>30 pages recto/verso</span>
           </div>
         </div>
@@ -399,16 +387,17 @@
     <div class="quote">
       <figure>
         <blockquote>
-          <h1 class="quote__text">
+          <p class="quote__text">
             De manière inconsciente, je crois, je guette un regard, une
             expression, des traits ou une nostalgie capable de résumer ou plus
             exactement de révéler une vie
-          </h1>
+          </p>
         </blockquote>
         <figcaption class="quote__author">- Richard Avedon</figcaption>
       </figure>
     </div>
-    <div id="contact">
+  </main>
+  <footer id="contact">
       <div class="container">
         <div class="form-container">
           <h3>Une question ? Une demande de devis ?</h3>
@@ -447,6 +436,6 @@
           />
         </div>
       </div>
-    </div>
+  </footer>
   </body>
 </html>
