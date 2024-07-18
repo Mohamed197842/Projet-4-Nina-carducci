@@ -90,15 +90,16 @@ nav a {
 }
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
-  color: #000;
+  color: black;
   background-color: #beb45a;
-  border-radius: 0;
+  border-radius: 0px;
 }
 .nav-pills .nav-link {
   color: #000;
   cursor: pointer;
-  border-radius: 0;
+  border-radius: 0px;
 }
+
 .item-column {
   position: relative;
   margin-bottom: 0 !important;
